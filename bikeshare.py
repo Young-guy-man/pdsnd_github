@@ -38,7 +38,7 @@ def get_filters():
         print('City name you typed is not on the list above. Please try again.\n')
         return get_filters()
 
-    # TO DO: get user input for month (all, january, february, ... , june)
+    # TO DO: get user input for month (all, january, february, march, ...  june)
 
     while True:
         try:
@@ -56,7 +56,7 @@ def get_filters():
         print('Month you typed is not on the list above. Please try again.\n')
         return get_filters()
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    # TO DO: get user input for day of week (all, monday, tuesday, wednesday ... sunday)
 
     while True:
         try:
